@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Texto sobre línea horizontal</title>
+    <style>
+        /* Estilos generales */
+        .container {
+            position: relative;
+            width: 100%;
+            height: 100px; /* Altura de muestra para el contenedor */
+        }
+
+        .line {
+            position: absolute;
+            top: 50%; /* Centra verticalmente la línea */
+            width: 100%;
+            border-top: 1px solid black; /* Color de la línea */
+        }
+
+        .text {
+            position: absolute;
+            top: 50%; /* Centra verticalmente el texto */
+            left: 50%; /* Centra horizontalmente el texto */
+            transform: translate(-50%, -50%);
+            background-color: white; /* Color de fondo del texto para ocultar la línea */
+            padding: 0 10px; /* Añade un poco de espacio alrededor del texto */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="line"></div> <!-- Línea horizontal -->
+        <div class="text">Texto encima de la línea</div> <!-- Texto sobre la línea -->
+    </div>
+</body>
+</html>

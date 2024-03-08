@@ -1,0 +1,37 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  
+  .title {
+    font-size: 36px;
+    position: relative;
+  }
+  
+  .title::before,
+  .title::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    width: calc(50vw - 50%);
+    height: 2px;
+    background-color: black;
+    margin: 5px;
+  }
+  
+  .title::before {
+    right: 110%;
+  }
+  
+  .title::after {
+    left: 110%;
+  }
+  

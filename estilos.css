@@ -1,0 +1,1054 @@
+
+@font-face {
+    font-family: 'Perandory';
+    src: url('tipografias/Perandory-Regular.otf') format('truetype');
+}
+
+@font-face {
+    font-family: 'CormorantGaramond';
+    src: url('tipografias/CormorantGaramond-Medium.ttf') format('truetype');
+}
+
+
+
+
+
+
+@media only screen and (min-width: 1500px){
+
+
+    body, html {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        font-family: 'CormorantGaramond';
+        background-color: #ffffff;
+       
+    }
+    
+    
+    
+    
+    
+    
+    .padre {
+        display: grid;
+        grid-template-columns: 15% 70% 15%;
+        grid-template-rows: 1fr;
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        
+    }
+        
+    .parent { grid-area: 1 / 2 / 2 / 3; }
+    
+    
+    .parent {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: min-content;
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        background-color: #f0f0f0;
+    }
+    
+    .div1 { grid-area: 1 / 1 / 2 / 4; }
+    .div2 { grid-area: 2 / 1 / 3 / 2; }
+    .div3 { grid-area: 2 / 2 / 4 / 4; }
+    .div4 { grid-area: 3 / 1 / 4 / 2; }
+    .div5 { grid-area: 4 / 1 / 5 / 2; }
+    .div6 { grid-area: 4 / 2 / 5 / 4; }
+    .div7 { grid-area: 5 / 1 / 6 / 4; }
+    .div8 { grid-area: 6 / 1 / 7 / 3; }
+    .div9 { grid-area: 7 / 1 / 8 / 3; }
+    .div10 { grid-area: 6 / 3 / 8 / 4; }
+    .div11 { grid-area: 8 / 1 / 9 / 4; }
+    .div12 { grid-area: 9 / 1 / 10 / 3; }
+    .div13 { grid-area: 10 / 1 / 11 / 3; }
+    .div14 { grid-area: 9 / 3 / 11 / 4; }
+    
+    #img1{
+        
+        width: 100%;
+    }
+    
+    
+    #img2{
+        width:100%
+    }
+    
+    #img3{
+        width:100%
+    }
+
+    #img4{
+        width:100%
+    }
+
+    #img5{
+        width: 70px; /* Ancho deseado para la imagen */
+        height: 70px; /* Altura deseada para la imagen */
+        border-radius: 50%; /* Hace que el borde tenga una forma redonda */
+        overflow: hidden; /* Oculta cualquier parte de la imagen que sobresalga del contenedor */
+      
+    }
+
+    #img5 img {
+        width: 100%; /* Ajusta la imagen al tamaño del contenedor */
+        height: auto; /* Hace que la altura se ajuste automáticamente para mantener la proporción */
+        display: block; /* Evita que haya espacios no deseados debajo de la imagen */
+    }
+
+    #imagen6{
+        width: 85%;
+        margin: 35px;
+       
+    }
+
+
+    .contenedor-imagen {
+        text-align: center;
+        width: 100%;
+        display: flex; /* Usa flexbox para centrar verticalmente */
+        justify-content: center; /* Centra horizontalmente */
+        align-items: center; /* Centra verticalmente */
+        height: 300px; /* Ajusta la altura según necesites */
+    }
+    
+    #imagen-variante {
+        max-width: 100%; /* Ajusta la anchura máxima según necesites */
+        max-height: 100%; /* Ajusta la altura máxima según necesites */
+        width: auto;
+        height: auto;
+        margin: auto; /* Centra la imagen horizontalmente */
+    }
+    
+    
+    .div1{
+        margin-bottom: 20px;
+    }
+
+    .div2{
+        margin-bottom: 0;
+        margin-left: 30px;
+    }
+
+    .div3{
+        margin: 30px;
+    }
+
+
+    .div4{
+        margin-top: 0;
+        margin-left: 30px;
+    }
+
+    .div5{
+        margin-left: 10px;
+        margin: 30px;
+    }
+
+    .div6{
+        border: 0.5px solid black;
+        padding: 5px;
+        margin: 30px;
+    }
+
+    .div7{
+        margin-top: 50px;
+        
+    }
+
+    .contenedor-main-header2{
+        align-items: center;
+
+        display: grid;
+        grid-template-columns: 4fr 2fr;
+        grid-template-rows: 1fr;
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        margin-left: 20px;
+    }
+
+    .subtitulo-header2{
+        position: absolute;
+        top: 50%; /* Centra verticalmente el texto */
+        left: 27%; /* Centra horizontalmente el texto */
+        transform: translate(-50%, -50%);
+        background-color: #f0f0f0; /* Color de fondo del texto para ocultar la línea */
+        padding: 0 5px; /* Añade un poco de espacio alrededor del texto */
+        white-space: nowrap; /* Evita que el texto se divida en dos líneas */  
+    }
+
+    .contenedor-linea1-header2{
+        position: relative;
+        width: 100%; /* Ancho del contenedor y lo que abarcan las líneas*/
+        height: 44px; /* Altura de muestra para el contenedor */
+    }
+    .linea1-header2{
+        position: absolute;
+        top: 60%; /* Centra verticalmente la línea */
+        width: 100%;
+        border-top: 1px solid black; /* Color de la línea */
+    }
+    
+    
+
+    .div8{
+        padding-right: 10px;
+        margin-left: 20px;
+    }
+    
+    .div9{
+        padding-right: 10px;
+        margin-left: 20px;
+    }
+
+
+    .creditos-div9 img,
+    .creditos-div9 p{
+        margin: 0;
+    }
+
+    .cuerpo-div9{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 1fr;
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+    }
+
+    .cuerpo-div9-2{
+        margin-left: 20px;
+    }
+
+    .div10{
+        border-left: 0.5px solid black; /* Este es el borde a la derecha */
+        padding-left: 10px; /* Esto es opcional, solo para dar un espacio visual */
+      
+
+        margin-right: 25px;
+        
+        align-items: center;
+        
+    }
+    
+    .div11{
+        margin-top: 50px;
+        
+    }
+    
+
+    .contenedor-main-header3{
+        align-items: center;
+
+        display: grid;
+        grid-template-columns: 4fr 3fr;
+        grid-template-rows: 1fr;
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        white-space: nowrap;
+        margin-left: 20px;
+    }
+
+    .contenedor-main-header3 h1{
+       right: 0%;
+    }
+    
+    .subtitulo-header3{
+        position: absolute;
+        top: 50%; /* Centra verticalmente el texto */
+        left: 70%; /* Centra horizontalmente el texto */
+        transform: translate(-50%, -50%);
+        background-color: #f0f0f0; /* Color de fondo del texto para ocultar la línea */
+        padding: 0 5px; /* Añade un poco de espacio alrededor del texto */
+        white-space: nowrap; /* Evita que el texto se divida en dos líneas */  
+    }
+
+    .contenedor-linea1-header3{
+        position: relative;
+        width: 100%; /* Ancho del contenedor y lo que abarcan las líneas*/
+        height: 44px; /* Altura de muestra para el contenedor */
+    }
+    .linea1-header3{
+        position: absolute;
+        top: 60%; /* Centra verticalmente la línea */
+        width: 100%;
+        border-top: 1px solid black; /* Color de la línea */
+    }
+    
+
+    .div12{
+        margin-left: 20px;
+    }
+
+    .div13{
+        margin-left: 20px;
+    }
+    .cuerpo-div13{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 1fr;
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+    }
+
+    .cuerpo-div13-2{
+        margin-left: 25px;
+    }
+
+
+    .div14{
+        margin: 10px;
+        border-left: 0.5px solid black; /* Este es el borde a la derecha */
+        padding-left: 10px; /* Esto es opcional, solo para dar un espacio visual */
+    }
+    
+    
+    
+    /* HEADER ESTILOS*/
+    
+    /*
+    
+    <header id="contedor-header">
+        <h1 id="titulo-header">EL DESESPERANZADOR</h1>
+        <div class="conedor-linea">
+            <div class="linea-header"></div>
+            <div class="contedor-header-subtitulo"><p id="subtitulo-header">Edicion IX - 07 de febrero de 2024</p></div>
+        </div>
+    </header>  
+    
+    */
+    
+    #titulo-header{
+        font-size: 45.3px;
+    }
+    #contedor-header {
+        text-align: center;
+        position: relative;
+        background-color: #f0f0f0;
+        padding-bottom: 10px;
+    
+        width: 100%; /* Ancho al 100% */
+        z-index: 999; /* Asegura que esté por encima del contenido al hacer scroll */
+        top: 0; /* Se mantiene en la parte superior */
+    
+    }
+    #titulo, #contenido {
+        margin: 0;
+    }
+    
+    .contedor-header-subtitulo {
+        font-size: 24px;
+        margin-bottom: 20px;
+        font-family: 'CormorantGaramond';
+    
+        position: absolute;
+        top: 50%; /* Centra verticalmente el texto */
+        left: 50%; /* Centra horizontalmente el texto */
+        transform: translate(-50%, -50%);
+        background-color: #f0f0f0; /* Color de fondo del texto para ocultar la línea */
+        padding: 0 20px; /* Añade un poco de espacio alrededor del texto */
+        white-space: nowrap; /* Evita que el texto se divida en dos líneas */   
+    }
+    
+    .contenedor-linea{
+        position: relative;
+        width: 100%; /* Ancho del contenedor y lo que abarcan las líneas*/
+        height: 44px; /* Altura de muestra para el contenedor */
+    }
+    .linea-header{
+        position: absolute;
+        top: 60%; /* Centra verticalmente la línea */
+        width: 100%;
+        border-top: 1px solid black; /* Color de la línea */
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    /*SUSCRIBIRSE BOTÓN*/
+    
+    .menu-pequeno {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        z-index: 1001; /* Asegura que esté por encima del modal */
+    }
+    
+    .menu-item {
+        margin-left: 10px;
+        text-decoration: none;
+        color: black;
+        font-size: 16px;
+    }
+    
+    
+    
+    .modal {
+        display: none;
+        position: fixed;
+        z-index: 1000; /* Asegura que el modal esté por encima del contenido */
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        overflow: auto;
+        background-color: rgba(0, 0, 0, 0.4);
+    }
+    .modal-content {
+        background-color: #fefefe;
+        margin: 10% auto;
+        padding: 20px;
+        border: 1px solid #888;
+        width: 60%;
+    }
+    .close {
+        color: #aaa;
+        float: right;
+        font-size: 28px;
+        font-weight: bold;
+    }
+    
+    .close:hover,
+    .close:focus {
+        color: black;
+        text-decoration: none;
+        cursor: pointer;
+    }
+    
+    
+    .close2 {
+        color: #aaa;
+        float: right;
+        font-size: 28px;
+        font-weight: bold;
+    }
+    
+    .close2:hover,
+    .close2:focus {
+        color: black;
+        text-decoration: none;
+        cursor: pointer;
+    }
+    
+    
+    form {
+        text-align: center;
+    }
+    
+    label {
+        display: block;
+        margin-bottom: 10px;
+    }
+    
+    input[type="text"],
+    input[type="email"],
+    input[type="password"],
+    input[type="submit"] {
+        width: calc(100% - 40px); /* Restar el padding del formulario */
+        padding: 10px;
+        margin-bottom: 20px;
+        box-sizing: border-box;
+    }
+    
+    input[type="submit"] {
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+        cursor: pointer;
+    }
+    
+    input[type="submit"]:hover {
+        background-color: #45a049;
+    }
+    
+    .modal-content{
+        border-radius: 10px;
+    }
+    
+    
+    
+    
+    
+    
+    /*Portada estilos*/
+    
+    body.portada{
+        overflow: hidden;
+    }
+    
+    .contenedor-portada {
+        text-align: center;
+        margin-top: 100px; /* Ajustar según la posición deseada */
+    }
+    
+    .subtitulo-portada {
+        font-size: 24px;
+        margin-bottom: 20px;
+        font-family: 'Perandory';
+    
+        position: absolute;
+        top: 50%; /* Centra verticalmente el texto */
+        left: 50%; /* Centra horizontalmente el texto */
+        transform: translate(-50%, -50%);
+        background-color: white; /* Color de fondo del texto para ocultar la línea */
+        padding: 0 20px; /* Añade un poco de espacio alrededor del texto */
+        white-space: nowrap; /* Evita que el texto se divida en dos líneas */   
+    }
+    
+    .conteneror-portada-linea{
+        position: relative;
+        width: 70%; /* Ancho del contenedor y lo que abarcan las líneas*/
+        margin: 0 auto;
+        height: 100px; /* Altura de muestra para el contenedor */
+    }
+    
+    .linea-portada{
+        position: absolute;
+        top: 60%; /* Centra verticalmente la línea */
+        width: 100%;
+        border-top: 1px solid black; /* Color de la línea */
+    }
+    
+    
+    .titulo-portada {
+        font-size: 36px;
+        margin-bottom: 30px;
+        font-family: 'Perandory';
+    }
+    
+    .button {
+        display: inline-block;
+        margin-top: 50px; /* Ajustar según la posición deseada */
+    }
+    
+    .button img {
+        width: 50px; /* Ajustar el tamaño del icono según sea necesario */
+        height: 50px; /* Ajustar el tamaño del icono según sea necesario */
+    }
+
+
+}
+
+
+@media only screen and (max-width: 1500px) {
+    /* Aquí colocas los estilos para pantallas grandes y medianas */
+    
+    body, html {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        font-family: 'CormorantGaramond';
+        background-color: #ffffff;
+       
+    }
+    
+    
+    
+    
+    
+    
+    .padre {
+        display: grid;
+        grid-template-columns: 15% 70% 15%;
+        grid-template-rows: 1fr;
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        
+    }
+        
+    .parent { grid-area: 1 / 2 / 2 / 3; }
+    
+    
+    .parent {
+        display: grid;
+        grid-template-columns: 0.1fr repeat(3, 1fr) 0.1fr;
+        grid-template-rows: min-content;
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        background-color: #f0f0f0;
+    }
+    
+    .div1 { grid-area: 1 / 2 / 2 / 5; }
+    .div2 { grid-area: 2 / 2 / 5 / 3; }
+    .div3 { grid-area: 2 / 3 / 4 / 5; }
+    .div4 { grid-area: 4 / 3 / 5 / 4; }
+    .div5 { grid-area: 4 / 4 / 7 / 5; }
+    .div6 { grid-area: 5 / 2 / 7 / 4; }
+    .div7 { grid-area: 7 / 2 / 8 / 5; }
+    .div8 { grid-area: 8 / 2 / 9 / 4; }
+    .div9 { grid-area: 9 / 2 / 10 / 4; }
+    .div10 { grid-area: 8 / 4 / 10 / 5; }
+    .div11 { grid-area: 10 / 2 / 11 / 5; }
+    .div12 { grid-area: 11 / 2 / 12 / 4; }
+    .div13 { grid-area: 12 / 2 / 13 / 4; }
+    .div14 { grid-area: 11 / 4 / 13 / 5; }
+    
+    #img1{
+        
+        width: 100%;
+    }
+    
+    
+    #img2{
+        width:100%
+    }
+    
+    #img3{
+        width:100%
+    }
+
+    #img4{
+        width:100%
+    }
+
+    #img5{
+        width: 70px; /* Ancho deseado para la imagen */
+        height: 70px; /* Altura deseada para la imagen */
+        border-radius: 50%; /* Hace que el borde tenga una forma redonda */
+        overflow: hidden; /* Oculta cualquier parte de la imagen que sobresalga del contenedor */
+      
+    }
+
+    #img5 img {
+        width: 100%; /* Ajusta la imagen al tamaño del contenedor */
+        height: auto; /* Hace que la altura se ajuste automáticamente para mantener la proporción */
+        display: block; /* Evita que haya espacios no deseados debajo de la imagen */
+    }
+    
+    
+    #imagen6{
+        width: 85%;
+        margin: 30px;
+       
+    }
+
+
+    #imagen-variante{
+        display: none; /* Oculta la imagen por defecto */
+    }
+
+
+    .div1{
+        margin-bottom: 20px;
+    }
+
+    .div5{
+        margin-left: 10px;
+    }
+
+    .div6{
+        border: 0.5px solid black;
+        padding: 5px;
+    }
+
+    .div7{
+        margin-top: 50px;
+    }
+
+    .contenedor-main-header2{
+        align-items: center;
+
+        display: grid;
+        grid-template-columns: 4fr 2fr;
+        grid-template-rows: 1fr;
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+    }
+
+    .subtitulo-header2{
+        position: absolute;
+        top: 50%; /* Centra verticalmente el texto */
+        left: 27%; /* Centra horizontalmente el texto */
+        transform: translate(-50%, -50%);
+        background-color: #f0f0f0; /* Color de fondo del texto para ocultar la línea */
+        padding: 0 5px; /* Añade un poco de espacio alrededor del texto */
+        white-space: nowrap; /* Evita que el texto se divida en dos líneas */  
+    }
+
+    .contenedor-linea1-header2{
+        position: relative;
+        width: 100%; /* Ancho del contenedor y lo que abarcan las líneas*/
+        height: 44px; /* Altura de muestra para el contenedor */
+    }
+    .linea1-header2{
+        position: absolute;
+        top: 60%; /* Centra verticalmente la línea */
+        width: 100%;
+        border-top: 1px solid black; /* Color de la línea */
+    }
+    
+    
+
+    .div8{
+        padding-right: 10px;
+    }
+    
+    .div9{
+        padding-right: 10px;
+    }
+
+
+    .creditos-div9 img,
+    .creditos-div9 p{
+        margin: 0;
+    }
+
+    .cuerpo-div9{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 1fr;
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+    }
+
+    .cuerpo-div9-2{
+        margin-left: 20px;
+    }
+
+    .div10{
+        border-left: 0.5px solid black; /* Este es el borde a la derecha */
+        padding-left: 10px; /* Esto es opcional, solo para dar un espacio visual */
+      
+    }
+    
+    .div11{
+        margin-top: 50px;
+        
+    }
+    
+
+    .contenedor-main-header3{
+        align-items: center;
+
+        display: grid;
+        grid-template-columns: 4fr 3fr;
+        grid-template-rows: 1fr;
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        white-space: nowrap;
+    }
+
+    .contenedor-main-header3 h1{
+       right: 0%;
+    }
+    
+    .subtitulo-header3{
+        position: absolute;
+        top: 50%; /* Centra verticalmente el texto */
+        left: 70%; /* Centra horizontalmente el texto */
+        transform: translate(-50%, -50%);
+        background-color: #f0f0f0; /* Color de fondo del texto para ocultar la línea */
+        padding: 0 5px; /* Añade un poco de espacio alrededor del texto */
+        white-space: nowrap; /* Evita que el texto se divida en dos líneas */  
+    }
+
+    .contenedor-linea1-header3{
+        position: relative;
+        width: 100%; /* Ancho del contenedor y lo que abarcan las líneas*/
+        height: 44px; /* Altura de muestra para el contenedor */
+    }
+    .linea1-header3{
+        position: absolute;
+        top: 60%; /* Centra verticalmente la línea */
+        width: 100%;
+        border-top: 1px solid black; /* Color de la línea */
+    }
+    
+
+    .div13{
+        margin-left: 20px;
+    }
+    .cuerpo-div13{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 1fr;
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+    }
+
+    .cuerpo-div13-2{
+        margin-left: 25px;
+    }
+
+
+    .div14{
+        margin: 10px;
+        border-left: 0.5px solid black; /* Este es el borde a la derecha */
+        padding-left: 10px; /* Esto es opcional, solo para dar un espacio visual */
+    }
+    
+    
+    
+    /* HEADER ESTILOS*/
+    
+    /*
+    
+    <header id="contedor-header">
+        <h1 id="titulo-header">EL DESESPERANZADOR</h1>
+        <div class="conedor-linea">
+            <div class="linea-header"></div>
+            <div class="contedor-header-subtitulo"><p id="subtitulo-header">Edicion IX - 07 de febrero de 2024</p></div>
+        </div>
+    </header>  
+    
+    */
+    
+    #titulo-header{
+        font-size: 45.3px;
+    }
+    #contedor-header {
+        text-align: center;
+        position: relative;
+        background-color: #f0f0f0;
+        padding-bottom: 10px;
+    
+        width: 100%; /* Ancho al 100% */
+        z-index: 999; /* Asegura que esté por encima del contenido al hacer scroll */
+        top: 0; /* Se mantiene en la parte superior */
+    
+    }
+    #titulo, #contenido {
+        margin: 0;
+    }
+    
+    .contedor-header-subtitulo {
+        font-size: 24px;
+        margin-bottom: 20px;
+        font-family: 'CormorantGaramond';
+    
+        position: absolute;
+        top: 50%; /* Centra verticalmente el texto */
+        left: 50%; /* Centra horizontalmente el texto */
+        transform: translate(-50%, -50%);
+        background-color: #f0f0f0; /* Color de fondo del texto para ocultar la línea */
+        padding: 0 20px; /* Añade un poco de espacio alrededor del texto */
+        white-space: nowrap; /* Evita que el texto se divida en dos líneas */   
+    }
+    
+    .contenedor-linea{
+        position: relative;
+        width: 100%; /* Ancho del contenedor y lo que abarcan las líneas*/
+        height: 44px; /* Altura de muestra para el contenedor */
+    }
+    .linea-header{
+        position: absolute;
+        top: 60%; /* Centra verticalmente la línea */
+        width: 100%;
+        border-top: 1px solid black; /* Color de la línea */
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    /*SUSCRIBIRSE BOTÓN*/
+    
+    .menu-pequeno {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        z-index: 1001; /* Asegura que esté por encima del modal */
+    }
+    
+    .menu-item {
+        margin-left: 10px;
+        text-decoration: none;
+        color: black;
+        font-size: 16px;
+    }
+    
+    
+    
+    .modal {
+        display: none;
+        position: fixed;
+        z-index: 1000; /* Asegura que el modal esté por encima del contenido */
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        overflow: auto;
+        background-color: rgba(0, 0, 0, 0.4);
+    }
+    .modal-content {
+        background-color: #fefefe;
+        margin: 10% auto;
+        padding: 20px;
+        border: 1px solid #888;
+        width: 60%;
+    }
+    .close {
+        color: #aaa;
+        float: right;
+        font-size: 28px;
+        font-weight: bold;
+    }
+    
+    .close:hover,
+    .close:focus {
+        color: black;
+        text-decoration: none;
+        cursor: pointer;
+    }
+    
+    
+    .close2 {
+        color: #aaa;
+        float: right;
+        font-size: 28px;
+        font-weight: bold;
+    }
+    
+    .close2:hover,
+    .close2:focus {
+        color: black;
+        text-decoration: none;
+        cursor: pointer;
+    }
+    
+    
+    form {
+        text-align: center;
+    }
+    
+    label {
+        display: block;
+        margin-bottom: 10px;
+    }
+    
+    input[type="text"],
+    input[type="email"],
+    input[type="password"],
+    input[type="submit"] {
+        width: calc(100% - 40px); /* Restar el padding del formulario */
+        padding: 10px;
+        margin-bottom: 20px;
+        box-sizing: border-box;
+    }
+    
+    input[type="submit"] {
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+        cursor: pointer;
+    }
+    
+    input[type="submit"]:hover {
+        background-color: #45a049;
+    }
+    
+    .modal-content{
+        border-radius: 10px;
+    }
+    
+    
+    
+    
+    
+    
+    /*Portada estilos*/
+    
+    body.portada{
+        overflow: hidden;
+    }
+    
+    .contenedor-portada {
+        text-align: center;
+        margin-top: 100px; /* Ajustar según la posición deseada */
+    }
+    
+    .subtitulo-portada {
+        font-size: 24px;
+        margin-bottom: 20px;
+        font-family: 'Perandory';
+    
+        position: absolute;
+        top: 50%; /* Centra verticalmente el texto */
+        left: 50%; /* Centra horizontalmente el texto */
+        transform: translate(-50%, -50%);
+        background-color: white; /* Color de fondo del texto para ocultar la línea */
+        padding: 0 20px; /* Añade un poco de espacio alrededor del texto */
+        white-space: nowrap; /* Evita que el texto se divida en dos líneas */   
+    }
+    
+    .conteneror-portada-linea{
+        position: relative;
+        width: 70%; /* Ancho del contenedor y lo que abarcan las líneas*/
+        margin: 0 auto;
+        height: 100px; /* Altura de muestra para el contenedor */
+    }
+    
+    .linea-portada{
+        position: absolute;
+        top: 60%; /* Centra verticalmente la línea */
+        width: 100%;
+        border-top: 1px solid black; /* Color de la línea */
+    }
+    
+    
+    .titulo-portada {
+        font-size: 36px;
+        margin-bottom: 30px;
+        font-family: 'Perandory';
+    }
+    
+    .button {
+        display: inline-block;
+        margin-top: 50px; /* Ajustar según la posición deseada */
+    }
+    
+    .button img {
+        width: 50px; /* Ajustar el tamaño del icono según sea necesario */
+        height: 50px; /* Ajustar el tamaño del icono según sea necesario */
+    }
+    
+    
+
+
+}
+
+
+/* Estilos para pantallas de móviles */
+@media only screen and (max-width: 480px) {
+    /* Aquí colocas los estilos para pantallas de móviles */
+   
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
